@@ -101,6 +101,7 @@
    - [ ] teacher:另一张表
    - [ ] teacher(id)：关联的是teacher表的id列（一般为主键列）
    - [ ] 在关联之前要确认关联的表已经创立好 
+   - [ ] 外键名称可以不注明，由系统自己创建（创建外键从”foreign“开始）
 
    ```mysql
    alter table stu drop foreign key stu_tea_fk;--删除外键
