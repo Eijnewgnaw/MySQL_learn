@@ -68,7 +68,7 @@
 
    ```mysql
    create table stu(
-   	id int primary key auto_increase,
+   	id int primary key auto_increment,
    	name varchar(20)
    );	--给id添加主键约束
    ```
@@ -89,7 +89,7 @@
 
    ```mysql
    create table stu(
-   	id int primary key auto_increase,
+   	id int primary key auto_increment,
    	name varchar(20),
    	tea_id int,	--设置当前表外键列，命名对应主键
    	constraint stu_tea_fk foreign (tea_id) reference teacher(id)
